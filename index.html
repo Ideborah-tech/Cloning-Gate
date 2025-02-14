@@ -11,7 +11,7 @@
 
 
     <!--News section-->
-    <section class="bg-white py-12 px-4 sm:px-6 lg:px-20 max-w-7xl mx-auto">
+    <section class="bg-white py-12 px-4 sm:px-6 lg:px-20 max-w-10xl mx-auto">
         <h2 class="text-3xl font-serif text-blue-900 mb-8">News</h2>
       
         <div class="grid grid-cols-1 md:grid-cols-[2fr_3fr] gap-8 items-start text-center">
@@ -75,28 +75,58 @@
 
     <!--Campus and Community section-->
     
-<!--Campus and Community section-->
-<div class="container mx-auto  py-8">
-    
-    <div class="relative bg-white shadow-md  overflow-hidden h-[680px]">
-      <img src="/upen/penn-center-innovation.jpeg" alt="Penn Center for Innovation" class="w-full h-[120vh] object-cover">
+<!-- Campus and Community section -->
+<div class="container mx-auto py-8">
+    <div class="relative bg-white shadow-md overflow-hidden h-[680px]">
+      <img src="/upen/penn-center-innovation.jpeg" alt="Penn Center for Innovation" class="w-full h-full object-cover">
   
-      <!-- Blue Box Overlay (Positioned Left) -->
-      <div class="absolute top-1/2 left-32 transform -translate-y-1/2 bg-blue-900 text-white p-12 w-[500px] h-[500px] text-center ">
-        
-        <p class="uppercase text-xs tracking-wide mt-12 mb-4">Campus & Community</p>
-        <h2 class="text-2xl font-serif mb-6 font-semibold">Penn Center for Innovation celebrates 10 years</h2>
-        <p class="text-base mb-6 leading-relaxed">
+      <!-- Blue Box Overlay -->
+      <div class="absolute top-1/2 left-24 transform -translate-y-1/2 bg-blue-900 text-white p-8 md:p-12 max-w-[500px] h-[500px] text-center rounded-lg shadow-lg">
+        <p class="uppercase text-xs tracking-wide mb-4 opacity-80">Campus & Community</p>
+        <h2 class="text-2xl font-serif mb-6 font-semibold leading-snug">
+          Penn Center for Innovation celebrates 10 years
+        </h2>
+        <p class="text-base mb-6 leading-relaxed opacity-90">
           The University's nexus for technology transfer supports researchers in their innovative efforts, from CAR T to mRNA advancements that have dramatically reshaped the world.
         </p>
-        <a href="#" class="inline-block hover:bg-white hover:text-blue-900 font-semibold py-5 px-14 rounded-full text-white mt-7 bg-transparent border-gray-500 border-1 text-sm">
+        <a href="#" class="inline-block bg-transparent border border-gray-300 text-white hover:bg-white hover:text-blue-900 font-semibold py-3 px-10 rounded-full transition text-sm">
           LEARN MORE
         </a>
       </div>
-      </div>
+    </div>
+  </div>
+  
+  
+  <!--Upcoming events-->
+
+<!-- Support Section -->
+<div class="flex  md:flex-row items-center justify-center gap-8 p-10">
+    <!-- Item 1 -->
+    <div class="flex flex-col items-center justify-center bg-gray-50 text-blue-950 border border-gray-300  p-10 min-h-[400px] w-full max-w-xl shadow-sm text-center relative">
+      <div class="absolute inset-2 border border-[#002366] pointer-events-none "></div>
+      <img src="/upen/Inspiring-Impact-Campaign-Logo-removebg-preview.png" alt="PENN logo" class="w-xs h-xs mb-4 bg-transparent">
+      <div class="w-8 h-px bg-gray-400 mb-4 "></div>
+      <p class="text-sm leading-relaxed mb-6 max-w-[70%]">
+        Your support ignites change locally and globally, transforming Penn into a powerful engine that advances knowledge for society's greatest good.
+      </p>
+      <button class="bg-white border border-gray-300 text-blue-950 px-12 py-5 rounded-full text-xs font-semibold  hover:bg-[#002366] hover:text-white mt-6 cursor-pointer">
+        SUPPORT PENN
+      </button>
     </div>
   
-  
+    <!-- Item 2 -->
+    <div class="flex flex-col items-center justify-center bg-[#001A57] text-white border border-[#002366] rounded-lg p-10 min-h-[400px] w-full max-w-xl shadow-sm text-center relative">
+      <div class="absolute inset-2 border border-gray-400 pointer-events-none"></div>
+      <h2 class="text-2xl font-serif font-semibold mt-4">Supporting Our Community</h2>
+      <div class="w-8 h-px bg-blue-300 mb-4 mt-7"></div>
+      <p class="text-sm  leading-relaxed mb-6 max-w-[70%]">
+        During these challenging times, Penn remains committed to supporting students, faculty, and staff and to sharing information with our larger community of alumni, parents, and friends.
+      </p>
+      <button class="bg-transparent hover:bg-white hover:text-[#001a57] border border-gray-400 text-white px-12 py-5 rounded-full text-xs font-semibold mt-6 cursor-pointer">
+        LEARN MORE
+      </button>
+    </div>
+  </div>
   
 </body>
 </html>
